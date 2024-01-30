@@ -20,6 +20,7 @@
   "homepage": "https://github.com/organized-household/packages#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
     "ts-patch": "^3.1.2",
     "typescript": "^5.3.3",
     "typescript-transform-paths": "^3.4.6"
