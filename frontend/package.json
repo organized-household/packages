@@ -2,9 +2,9 @@
   "name": "@organized-household/frontend",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo \"No build specified\" && exit 0"
   },
   "author": "",
   "license": "ISC"

@@ -1,0 +1,31 @@
+{
+  "name": "@organized-household/packages",
+  "version": "0.0.1",
+  "description": "Package repo",
+  "main": "index.js",
+  "workspaces": [
+    "elements",
+    "frontend"
+  ],
+  "scripts": {
+    "build": "concurrently 'npm run -w elements build' 'npm run -w frontend build'",
+    "test": "web-test-runner",
+    "relase": "npm run -w elements release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/organized-household/packages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/organized-household/packages/issues"
+  },
+  "homepage": "https://github.com/organized-household/packages#readme",
+  "devDependencies": {
+    "@web/test-runner": "^0.18.0",
+    "@web/test-runner-junit-reporter": "^0.7.0",
+    "@web/test-runner-playwright": "^0.11.0",
+    "concurrently": "^8.2.2"
+  }
+}
