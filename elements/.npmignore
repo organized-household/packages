@@ -1,0 +1,14 @@
+.*
+*.sh
+*.yml
+*.yaml
+*.env
+tsconfig.json
+tsconfig.tsbuildinfo
+web-test-runner.config.mjs
+release.config.cjs
+src
+coverage
+dist/**/*.test.js
+dist/**/*.test.js.map
+dist/**/*.test.d.ts

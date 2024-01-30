@@ -1,0 +1,11 @@
+{
+  "name": "@organized-household/frontend",
+  "version": "0.0.0-semantic-release",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "echo \"No build specified\" && exit 0"
+  },
+  "author": "",
+  "license": "ISC"
+}
