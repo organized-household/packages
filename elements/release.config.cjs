@@ -75,6 +75,21 @@ module.exports = {
       {
         'npmPublish': true
       }
+    ],
+    [
+      '@semantic-release/github'
+    ],
+    [
+      '@semantic-release/git',
+      {
+        assets: [
+          'package.json',
+          'package-lock.json',
+          'CHANGELOG.md',
+          'dist/**'
+        ],
+        message: 'chore(release): set `package.json` to ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
+      }
     ]
   ],
   ci: true,
