@@ -10,7 +10,7 @@
   "scripts": {
     "build": "concurrently 'npm run -w elements build' 'npm run -w frontend build'",
     "test": "web-test-runner",
-    "relase": "npm run -w elements release"
+    "release": "npm run -w elements release"
   },
   "repository": {
     "type": "git",
