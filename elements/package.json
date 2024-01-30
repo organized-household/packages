@@ -1,0 +1,29 @@
+{
+  "name": "@organized-household/elements",
+  "version": "0.0.1",
+  "description": "Web components used in the oh! frontend",
+  "type": "module",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "tspc -b",
+    "release": "npx semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/organized-household/packages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/organized-household/packages/issues"
+  },
+  "homepage": "https://github.com/organized-household/packages#readme",
+  "devDependencies": {
+    "ts-patch": "^3.1.2",
+    "typescript": "^5.3.3",
+    "typescript-transform-paths": "^3.4.6"
+  },
+  "dependencies": {
+    "lit": "^3.1.1"
+  }
+}
