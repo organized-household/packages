@@ -1,6 +1,6 @@
 {
   "name": "@organized-household/elements",
-  "version": "0.0.0-semantic-release",
+  "version": "1.0.0",
   "description": "Web components used in the oh! frontend",
   "type": "module",
   "main": "./dist/main.js",
