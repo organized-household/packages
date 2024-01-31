@@ -75,20 +75,20 @@ module.exports = {
       '@semantic-release/npm',
       {
         'npmPublish': true,
-        'tarballDir': 'dist'
+        'pkgRoot': './dist'
       }
     ],
     [
       '@semantic-release/git',
       {
         assets: [
-          'dist',
           'package.json',
           'package-lock.json',
           'CHANGELOG.md',
           'README.md',
+          'dist/**/*.{js,js.map,d.ts}'
         ],
-        message: 'chore(release): set `package.json` to ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
+        message: 'set `package.json` to ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
       }
     ]
   ],
