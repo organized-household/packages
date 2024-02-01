@@ -9,7 +9,7 @@ module.exports = {
   ],
   repositoryUrl: 'git@github.com:organized-household/packages.git',
   preset: 'conventionalcommits',
-  extends: 'semantic-release-monorepo',
+  // extends: 'semantic-release-monorepo',
   plugins: [
     [
       '@semantic-release/commit-analyzer',
