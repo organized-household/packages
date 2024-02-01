@@ -74,8 +74,20 @@ module.exports = {
     [
       '@semantic-release/npm',
       {
-        'npmPublish': true,
-        'pkgRoot': './dist'
+        'npmPublish': false,
+        'pkgRoot': 'dist'
+      }
+    ],
+    [
+      '@semantic-release/github',
+      {
+        assets: [
+          'package.json',
+          'package-lock.json',
+          'CHANGELOG.md',
+          'README.md',
+          'dist/**/*.{js,js.map,d.ts}'
+        ],
       }
     ],
     [
